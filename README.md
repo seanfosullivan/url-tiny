@@ -1,6 +1,7 @@
 # url-tiny
 
 ## Deployment Steps
+* Maven Install url-tiny. The simplest way is through Eclipse (Run > Run As > Maven Install)
 * Install [Docker](https://docs.docker.com/docker-for-windows/install/)
 * enter command line at project root 
 * In command line run: docker build -f Dockerfile -t url-tiny .

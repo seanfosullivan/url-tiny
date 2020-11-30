@@ -3,8 +3,8 @@
 ## Deployment Steps
 * Install [Docker](https://docs.docker.com/docker-for-windows/install/)
 * enter command line at project root 
-* In command line run: docker build -f Dockerfile -t small-url .
-* In command line run: docker run -p 3000:3000 small-url
+* In command line run: docker build -f Dockerfile -t url-tiny .
+* In command line run: docker run -p 3000:3000 url-tiny
 
 ## How to use url-tiny
 * I would recommend downloading [Postman](https://www.postman.com/downloads/) for ease of use.

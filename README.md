@@ -12,6 +12,7 @@
 * To run url-tiny after deployment, in Postman POST to localhost:3000/run with the body text containing a valid in full http website such as https://www.google.com/
 * A Short URL will then be generated and replied in the form of localhost:3000/s/{8 random characters}
 * Entering the new short URL in a browser will redirect to long url 
+entering a get request localhost:3000/urls will return the database of URLs
 
 ## Technologies used
 * Java

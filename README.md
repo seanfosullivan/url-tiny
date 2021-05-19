@@ -4,9 +4,11 @@
 * Maven Install url-tiny. The simplest way is through [Eclipse](https://www.eclipse.org/downloads/) (Run > Run As > Maven Install)
 * Install [Docker](https://docs.docker.com/docker-for-windows/install/)
 * Enter command line at project root 
-* In command line run: docker build -f Dockerfile -t url-tiny .
-* In command line run: docker run -p 3000:3000 url-tiny
-
+* In command line run: 
+```
+docker build -f Dockerfile -t url-tiny 
+docker run -p 3000:3000 url-tiny
+```
 ## How to use url-tiny
 * I would recommend downloading [Postman](https://www.postman.com/downloads/) for ease of use
 * To run url-tiny after deployment, in Postman POST to localhost:3000/run with the body text containing a valid in full http website such as https://www.google.com/
